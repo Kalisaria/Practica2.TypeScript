@@ -13,7 +13,6 @@ export class Telefono {
         this._tipoTelf = value;
     }
 
-    private _numTelf: number;
     public get numero(): number {
         return this._numTelf;
     }
