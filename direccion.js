@@ -1,4 +1,4 @@
-export class direcion {
+export class Direccion {
     constructor(calle, numero, piso, letra, codigoPostal, poblacion, provincia) {
         this._calle = calle;
         this._numero = numero;
@@ -8,46 +8,46 @@ export class direcion {
         this._poblacion = poblacion;
         this._provincia = provincia;
     }
-    get calle() {
+    getcalle() {
         return this._calle;
     }
-    set calle(value) {
+    setcalle(value) {
         this._calle = value;
     }
-    get numero() {
+    getnumero() {
         return this._numero;
     }
-    set numero(value) {
+    setnumero(value) {
         this._numero = value;
     }
-    get piso() {
+    getpiso() {
         return this._piso;
     }
-    set piso(value) {
+    setpiso(value) {
         this._piso = value;
     }
-    get letra() {
+    getletra() {
         return this._letra;
     }
-    set letra(value) {
+    setletra(value) {
         this._letra = value;
     }
-    get CP() {
+    getCP() {
         return this._CP;
     }
-    set CP(value) {
+    setCP(value) {
         this._CP = value;
     }
-    get poblacion() {
+    getpoblacion() {
         return this._poblacion;
     }
-    set poblacion(value) {
+    setpoblacion(value) {
         this._poblacion = value;
     }
-    get provincia() {
+    getprovincia() {
         return this._provincia;
     }
-    set provincia(value) {
+    setprovincia(value) {
         this._provincia = value;
     }
     printDireccion() {

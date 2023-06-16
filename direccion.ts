@@ -17,52 +17,52 @@ export class Direccion{
         this._provincia = provincia;
     }
     
-    public get calle(): string {
+    public getcalle(): string {
         return this._calle;
     }
-    public set calle(value: string) {
+    public setcalle(value: string) {
         this._calle = value;
     }
 
-    public get numero(): number {
+    public getnumero(): number {
         return this._numero;
     }
-    public set numero(value: number) {
+    public setnumero(value: number) {
         this._numero = value;
     }
 
-    public get piso(): number {
+    public getpiso(): number {
         return this._piso;
     }
-    public set piso(value: number) {
+    public setpiso(value: number) {
         this._piso = value;
     }
 
-    public get letra(): string {
+    public getletra(): string {
         return this._letra;
     }
-    public set letra(value: string) {
+    public setletra(value: string) {
         this._letra = value;
     }
     
-    public get CP(): number {
+    public getCP(): number {
        return this._CP;
     }
-    public set CP(value: number){
+    public setCP(value: number){
         this._CP = value;
     }
 
-    public get poblacion(): string {
+    public getpoblacion(): string {
         return this._poblacion;
     }
-    public set poblacion(value: string) {
+    public setpoblacion(value: string) {
         this._poblacion = value;
     }
 
-    public get provincia(): string {
+    public getprovincia(): string {
         return this._provincia;
     }
-    public set provincia(value: string) {
+    public setprovincia(value: string) {
         this._provincia = value;
     }
 

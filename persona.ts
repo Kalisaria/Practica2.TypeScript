@@ -30,21 +30,21 @@ export class Persona {
         this._notas= Notas;      
     }
 
-    public get nombre(): string {
+    public getnombre(): string {
         return this._nombre;
     }
-    public set nombre(value: string) {
+    public setnombre(value: string) {
         this._nombre = value;
     }
     
-    public get apellidos(): string {
+    public getapellidos(): string {
         return this._apellidos;
     }
-    public set apellidos(value: string) {
+    public setapellidos(value: string) {
         this._apellidos = value;
     }
 
-    public get edad(): number {
+    public getedad(): number {
         return this._edad;
     }
     public set edad(value: number) {
@@ -65,14 +65,14 @@ export class Persona {
         this._colorFav = value;
     }
 
-    public get sexo(): string {
-        return this._sexo;
+    public get DNI(): string {
+        return this._DNI;
     }
-    public set sexo(value: string) {
-        this._sexo = value;
+    public setDNI(value: string) {
+        this._DNI = value;
     }
 
-    public getSexo(): string {
+    public get Sexo(): string {
         return this._sexo
     }
     public setSexo (value:string) {
