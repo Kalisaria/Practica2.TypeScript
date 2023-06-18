@@ -30,21 +30,21 @@ export class Persona {
         this._notas= Notas;      
     }
 
-    public getnombre(): string {
+    public get nombre(): string {
         return this._nombre;
     }
-    public setnombre(value: string) {
+    public set nombre(value: string) {
         this._nombre = value;
     }
     
-    public getapellidos(): string {
+    public get apellidos(): string {
         return this._apellidos;
     }
-    public setapellidos(value: string) {
+    public set apellidos(value: string) {
         this._apellidos = value;
     }
 
-    public getedad(): number {
+    public get edad(): number {
         return this._edad;
     }
     public set edad(value: number) {
@@ -68,47 +68,47 @@ export class Persona {
     public get DNI(): string {
         return this._DNI;
     }
-    public setDNI(value: string) {
+    public set DNI(value: string) {
         this._DNI = value;
     }
 
     public get Sexo(): string {
         return this._sexo
     }
-    public setSexo (value:string) {
+    public set Sexo (value:string) {
         this._sexo= value;
     }
 
-    public getDirecciones(): Direccion {
+    public get Direcciones(): Direccion {
         return this._direcciones
     }
-    public setDirecciones (value:Direccion) {
+    public set Direcciones (value:Direccion) {
         this._direcciones= value;
     }
 
-    public getNotas(): string {
+    public get Notas(): string {
         return this._notas
     }
-    public setNotas (value:string) {
+    public set Notas (value:string) {
         this._notas= value;
     }
 
-    public getMails(): Mail {
+    public get Mails(): Mail {
         return this._mails
     }
-    public setMails (value: Mail) {
+    public set Mails (value: Mail) {
         this._mails= value;
     }
 
     
-    public getTelefonos(): Telefono {
+    public get Telefonos(): Telefono {
         return this._telefonos
     }
-    public setTelefonos (value: Telefono) {
+    public set Telefonos (value: Telefono) {
         this._telefonos= value
     }
 
-    printPersonas () {
+    public printPersonas () {
         return ("Nombre:" + this._nombre + "\n" + "Apellidos:" + this._apellidos + "\n" + "Fecha de nacimiento:" + this._cumpleanos + "\n" + "Edad:" + this._edad + "\n" + "DNI:" + this._DNI + "\n" + "Sexo:" + this._sexo + "\n" + "Direccion:" + this._direcciones.printDireccion  + "\n" + "Mail:" + this ._mails.printMail + "\n" + "Telefono:" + this._telefonos.printTelf+ "\n" + "Su color favorito es:" + this ._colorFav + "\n" + "Notas:" + this ._notas)
     }
 

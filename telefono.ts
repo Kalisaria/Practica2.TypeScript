@@ -6,21 +6,21 @@ export class Telefono {
         this._tipoTelf = tipo;
         this._numTelf = numero;
     }
-    public get tipo() {
+    public gettipo() {
         return this._tipoTelf;
     }
-    public set tipoTelf(value) {
+    public settipoTelf(value) {
         this._tipoTelf = value;
     }
 
-    public get numero(): number {
+    public getnumero(): number {
         return this._numTelf;
     }
-    public set numero(value: number) {
+    public setnumero(value: number) {
         this._numTelf = value;
     }
 
-    printTelf (){
+    public printTelf (){
         return ("El telefono" + " "+ this._tipoTelf+" "+"es"+ " " + this._numTelf)
          }
 }
